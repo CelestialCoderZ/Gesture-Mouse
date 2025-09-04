@@ -24,11 +24,14 @@ Built with **Python, OpenCV, Mediapipe, and PyAutoGUI**, this project brings **t
 
 | Ardiuno             | Ultrasonic Sensors                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| D2 | Trig () |
-| D4 | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-
+| D2 | Trig (SENSOR1) |
+| D3 | Echo (SENSOR1) |
+| 5V | VCC (SENSOR1) |
+| GND | GND (SENSOR1) |
+| D4 | Trig (SENSOR 2) |
+| D5 | Echo (SENSOR2) |
+| 5V | VCC |
+| GND | GND |
 
 
 
@@ -38,6 +41,9 @@ Built with **Python, OpenCV, Mediapipe, and PyAutoGUI**, this project brings **t
    ```bash
    git clone https://github.com/yourusername/GestureMouse.git
    cd GestureMouse
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
 ## ✨ Acknowledgements
 - [OpenCV](https://opencv.org/) – For computer vision and image processing.  
@@ -55,12 +61,3 @@ If you have any questions, suggestions, or feedback, feel free to reach out:
 - **GitHub**: [github.com/yourusername](https://github.com/CelestialCoderZ)  
 
 💡 I’d love to connect and collaborate on exciting projects!
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-
